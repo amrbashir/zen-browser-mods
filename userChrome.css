@@ -23,7 +23,7 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 	background: transparent !important;
 }
 
-/* Make icon-only bookmarks sizes consistent and remove margins */
+/* Make bookmark icon width and height consistent and remove margins */
 #PlacesToolbarItems > * {
 	height: 24px !important;
 	margin: 0 !important;
@@ -52,13 +52,15 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#PlacesChevron:hover {
+
+/* Make folder bookmars and overflow menu hover consistent with root bookmark items */
+#PlacesToolbarItems > toolbarbutton.bookmark-item:hover, #PlacesChevron:hover {
 	border-radius: var(--toolbarbutton-border-radius);
 	background-color: var(--toolbarbutton-hover-background) !important;
 	color: inherit !important;
 	outline-color: var(--toolbarbutton-hover-outline-color) !important;
 }
-#PlacesChevron > label:nth-child(3) {
+#PlacesToolbarItems > toolbarbutton.bookmark-item, #PlacesChevron > label {
 	background: transparent !important;
 }
 
