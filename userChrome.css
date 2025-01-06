@@ -63,7 +63,7 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 }
 
 /*  Add transparency and blur to bookmark folders menu popup */
-#PlacesChevronPopup, #PlacesChevronPopup menupopup {
+#PlacesToolbar toolbarbutton.bookmark-item menupopup, #PlacesChevronPopup, #PlacesChevronPopup menupopup {
 	--panel-background: rgb(20, 20, 20, 0.75) !important;
 	--panel-item-hover-bgcolor: color-mix( in srgb, var(--zen-colors-secondary) 40%, transparent ) !important;
 	backdrop-filter: blur(1px) !important;
