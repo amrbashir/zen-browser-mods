@@ -1,6 +1,6 @@
 /* Fix GitHub icon in bookmarks */
 toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
-  filter: invert(100%);
+	filter: invert(100%);
 }
 
 /* Fix inactive pinned GitHub tab icon color */
@@ -31,8 +31,8 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 
 /* Add gap between bookmark icons */
 #PlacesToolbarItems {
-  display: flex;
-	gap: 10px;
+	display: flex;
+	gap: 5px;
 }
 
 /* Make the bookmarks overflow menu button consistent with other bookmark icons */
@@ -48,15 +48,15 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-  background-image: url("chrome://browser/skin/zen-icons/forward.svg") !important;
+	background-image: url("chrome://browser/skin/zen-icons/forward.svg") !important;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #PlacesChevron:hover {
-  border-radius: var(--toolbarbutton-border-radius);
+	border-radius: var(--toolbarbutton-border-radius);
 	background-color: var(--toolbarbutton-hover-background) !important;
-  color: inherit !important;
-  outline-color: var(--toolbarbutton-hover-outline-color) !important;
+	color: inherit !important;
+	outline-color: var(--toolbarbutton-hover-outline-color) !important;
 }
 #PlacesChevron > label:nth-child(3) {
 	background: transparent !important;
@@ -76,7 +76,7 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 
 /* Add transparency and blur to floating urlbar */
 #urlbar[open] #urlbar-background {
-  background: rgb(20, 20, 20, 0.75) !important;
+	background: rgb(20, 20, 20, 0.75) !important;
 	backdrop-filter: blur(1px) !important;
 }
 
