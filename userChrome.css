@@ -10,7 +10,7 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 
 /* Reduce Zen sidebar min-width to 200px */
 #navigator-toolbox[zen-sidebar-expanded="true"] {
-	--zen-toolbox-min-width: 200px !important;
+	--zen-toolbox-min-width: 240px !important;
 }
 
 /* Remove bookmarks right padding to align overflow icon with other sidebar UI elements */
