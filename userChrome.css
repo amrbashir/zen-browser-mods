@@ -23,9 +23,8 @@ toolbarbutton.bookmark-item[image^="page-icon:https://github.com/"] image {
 	background: transparent !important;
 }
 
-/* Make bookmark icon width and height consistent and remove margins */
+/* Make icon-only bookmarks sizes consistent and remove margins */
 #PlacesToolbarItems > * {
-	width: 24px !important;
 	height: 24px !important;
 	margin: 0 !important;
 }
