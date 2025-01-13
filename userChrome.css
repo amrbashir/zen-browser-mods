@@ -3,11 +3,6 @@
 	--zen-toolbox-min-width: 200px !important;
 }
 
-/* Hide extensions popup button */
-#unified-extensions-button {
-	display: none;
-}
-
 /* Remove background of docked urlbar */
 #urlbar:not([open]) #urlbar-background, #urlbar-container {
 	background: transparent !important;
