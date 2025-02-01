@@ -1,8 +1,3 @@
-/* Remove background of docked urlbar */
-#urlbar:not([open]) #urlbar-background, #urlbar-container {
-	background: transparent !important;
-}
-
 /* Add transparency and blur to floating urlbar */
 #urlbar[open] #urlbar-background {
 	background: rgb(20, 20, 20, 0.75) !important;
